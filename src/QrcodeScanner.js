@@ -27,11 +27,11 @@ class QrcodeScanner extends Component {
     return (
       <View style={containerStyle}>
         <TouchableComponent onPress={loading || disabled ? null : onPress} {...attributes}>
-          {/* {loading ? (
+          {loading ? (
             <ActivityIndicator size="small" color="#ffffff" />
           ) : (
             <Text style={[styles.text, titleStyle]}>{title}</Text>
-          )} */}
+          )}
         </TouchableComponent>
       </View>
     );
